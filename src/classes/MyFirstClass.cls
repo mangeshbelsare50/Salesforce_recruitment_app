@@ -8,6 +8,7 @@ public class MyFirstClass
 	Sobject obj;
 	Account acc;
 	Position__c pss;
+	Account_c acc;
 	
 	List<Position__c> plist = new List<Position__c>();	
 	set<Position__c> pSet = new set<Position__c>();
