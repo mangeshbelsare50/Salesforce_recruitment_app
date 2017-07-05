@@ -16,6 +16,9 @@ public class MyFirstClass
 	list<String> s1 = new list<String>();	
 	String[] s2 = new String[1];	
 	
+	List<Integer> a1 = new List<Integer>();
+	String S3 ;
+	
 	public list<Position__c> getAllPositions()
 		{			
 			list<Position__c> allPositions = [Select id,name,Type__c from Position__c] ;
