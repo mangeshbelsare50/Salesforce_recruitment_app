@@ -17,6 +17,7 @@ public class MyFirstClass
 	String[] s2 = new String[1];	
 	
 	List<Integer> a1 = new List<Integer>();
+	String S2 ;
 	
 	public list<Position__c> getAllPositions()
 		{			
