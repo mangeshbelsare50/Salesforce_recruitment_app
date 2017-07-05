@@ -80,6 +80,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>demo_Querry</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>dummy</apexClass>
         <enabled>true</enabled>
     </classAccesses>

@@ -8,7 +8,9 @@ public class MyFirstClass
 	Sobject obj;
 	Account acc;
 	Position__c pss;
-	Account_c acc;
+	
+	list<String> s1  = new list<string>{'dsd','dsds'};
+	String[] s1 = new String[];
 	
 	List<Position__c> plist = new List<Position__c>();	
 	set<Position__c> pSet = new set<Position__c>();
