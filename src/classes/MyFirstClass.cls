@@ -9,13 +9,12 @@ public class MyFirstClass
 	Account acc;
 	Position__c pss;
 	
-	list<String> s1  = new list<string>{'dsd','dsds'};
-	String[] s1 = new String[];
-	
 	List<Position__c> plist = new List<Position__c>();	
 	set<Position__c> pSet = new set<Position__c>();
 	map<Id,Position__c> pMap = new map<Id,Position__c>();
 	
+	list<String> s1 = new list<String>();	
+	String[] s2 = new String[1];	
 	
 	public list<Position__c> getAllPositions()
 		{			
